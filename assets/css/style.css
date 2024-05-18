@@ -1,4 +1,4 @@
-/* Asterix wildcard selsctor to override default styles added by the brower */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -14,15 +14,16 @@ body {
     color: #3a3a3a;
 }
 
+
 /* Header */
 header {
     background-color: lightcoral;
 }
 
-/* Main Content */
+/* Main content */
 main {
     background-color: lightblue;
-    /* Make main element take up any surplus space to push down footer */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
